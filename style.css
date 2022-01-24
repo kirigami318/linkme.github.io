@@ -9,7 +9,7 @@ body{
 }
 
 .kotak{
-    width: 400px;
+    width: 380px;
     height: 50px;
     border: solid 3px;
     margin-left: auto;
@@ -21,12 +21,15 @@ body{
     text-decoration: none;
     color: white;
     margin-bottom: 10px;
-	border-radius: 20px;
+    border-radius: 20px;
+    border-color: white;
 }
 
 .kotak:hover{
-	width: 550px;
-	transition: 0.5s;
+    background-color: white;
+    color: black;
+    border-color: black;
+    transtition: 0.5s;
 }
 
 .header{
